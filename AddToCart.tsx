@@ -1,0 +1,2 @@
+ "use client";
+export default function AddToCart({id}:{id:number}){return <button className="primary" onClick={()=>alert("Cart demo: product "+id+" added. Checkout will be connected after database/payment setup.")}>🛒 Add to Cart</button>}
